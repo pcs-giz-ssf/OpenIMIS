@@ -1,0 +1,1593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="IMISModelStoreContainer" CdmEntityContainer="IMISEntities">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="IMISModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblBatchRun">
+      <EntityTypeMapping TypeName="IMISModel.tblBatchRun">
+        <MappingFragment StoreEntitySet="tblBatchRun">
+          <ScalarProperty Name="RunMonth" ColumnName="RunMonth" />
+          <ScalarProperty Name="RunYear" ColumnName="RunYear" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="RunDate" ColumnName="RunDate" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="RunID" ColumnName="RunID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCeilingInterpretation">
+      <EntityTypeMapping TypeName="IMISModel.tblCeilingInterpretation">
+        <MappingFragment StoreEntitySet="tblCeilingInterpretation">
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="AltLanguage" ColumnName="AltLanguage" />
+          <ScalarProperty Name="CeilingIntDesc" ColumnName="CeilingIntDesc" />
+          <ScalarProperty Name="CeilingIntCode" ColumnName="CeilingIntCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblClaim">
+      <EntityTypeMapping TypeName="IMISModel.tblClaim">
+        <MappingFragment StoreEntitySet="tblClaim">
+          <ScalarProperty Name="ClaimCategory" ColumnName="ClaimCategory" />
+          <ScalarProperty Name="VisitType" ColumnName="VisitType" />
+          <ScalarProperty Name="ICDID4" ColumnName="ICDID4" />
+          <ScalarProperty Name="ICDID3" ColumnName="ICDID3" />
+          <ScalarProperty Name="ICDID2" ColumnName="ICDID2" />
+          <ScalarProperty Name="ICDID1" ColumnName="ICDID1" />
+          <ScalarProperty Name="ClaimAdminId" ColumnName="ClaimAdminId" />
+          <ScalarProperty Name="GuaranteeId" ColumnName="GuaranteeId" />
+          <ScalarProperty Name="Remunerated" ColumnName="Remunerated" />
+          <ScalarProperty Name="ProcessStamp" ColumnName="ProcessStamp" />
+          <ScalarProperty Name="SubmitStamp" ColumnName="SubmitStamp" />
+          <ScalarProperty Name="AuditUserIDProcess" ColumnName="AuditUserIDProcess" />
+          <ScalarProperty Name="AuditUserIDSubmit" ColumnName="AuditUserIDSubmit" />
+          <ScalarProperty Name="RunID" ColumnName="RunID" />
+          <ScalarProperty Name="HFID" ColumnName="HFID" />
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserIDReview" ColumnName="AuditUserIDReview" />
+          <ScalarProperty Name="ValidityToReview" ColumnName="ValidityToReview" />
+          <ScalarProperty Name="ValidityFromReview" ColumnName="ValidityFromReview" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="RejectionReason" ColumnName="RejectionReason" />
+          <ScalarProperty Name="ApprovalStatus" ColumnName="ApprovalStatus" />
+          <ScalarProperty Name="ReviewStatus" ColumnName="ReviewStatus" />
+          <ScalarProperty Name="FeedbackStatus" ColumnName="FeedbackStatus" />
+          <ScalarProperty Name="Explanation" ColumnName="Explanation" />
+          <ScalarProperty Name="FeedbackID" ColumnName="FeedbackID" />
+          <ScalarProperty Name="Feedback" ColumnName="Feedback" />
+          <ScalarProperty Name="DateProcessed" ColumnName="DateProcessed" />
+          <ScalarProperty Name="DateClaimed" ColumnName="DateClaimed" />
+          <ScalarProperty Name="Valuated" ColumnName="Valuated" />
+          <ScalarProperty Name="Reinsured" ColumnName="Reinsured" />
+          <ScalarProperty Name="Approved" ColumnName="Approved" />
+          <ScalarProperty Name="Claimed" ColumnName="Claimed" />
+          <ScalarProperty Name="Adjustment" ColumnName="Adjustment" />
+          <ScalarProperty Name="Adjuster" ColumnName="Adjuster" />
+          <ScalarProperty Name="ClaimStatus" ColumnName="ClaimStatus" />
+          <ScalarProperty Name="ICDID" ColumnName="ICDID" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="ClaimCode" ColumnName="ClaimCode" />
+          <ScalarProperty Name="InsureeID" ColumnName="InsureeID" />
+          <ScalarProperty Name="ClaimID" ColumnName="ClaimID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblClaimAdmin">
+      <EntityTypeMapping TypeName="IMISModel.tblClaimAdmin">
+        <MappingFragment StoreEntitySet="tblClaimAdmin">
+          <ScalarProperty Name="HasLogin" ColumnName="HasLogin" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="RowId" ColumnName="RowId" />
+          <ScalarProperty Name="AuditUserId" ColumnName="AuditUserId" />
+          <ScalarProperty Name="LegacyId" ColumnName="LegacyId" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="HFId" ColumnName="HFId" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="OtherNames" ColumnName="OtherNames" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="ClaimAdminCode" ColumnName="ClaimAdminCode" />
+          <ScalarProperty Name="ClaimAdminId" ColumnName="ClaimAdminId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblClaimDedRem">
+      <EntityTypeMapping TypeName="IMISModel.tblClaimDedRem">
+        <MappingFragment StoreEntitySet="tblClaimDedRem">
+          <ScalarProperty Name="RemAntenatal" ColumnName="RemAntenatal" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="RemHospitalization" ColumnName="RemHospitalization" />
+          <ScalarProperty Name="RemDelivery" ColumnName="RemDelivery" />
+          <ScalarProperty Name="RemSurgery" ColumnName="RemSurgery" />
+          <ScalarProperty Name="RemConsult" ColumnName="RemConsult" />
+          <ScalarProperty Name="RemOP" ColumnName="RemOP" />
+          <ScalarProperty Name="RemIP" ColumnName="RemIP" />
+          <ScalarProperty Name="RemG" ColumnName="RemG" />
+          <ScalarProperty Name="DedIP" ColumnName="DedIP" />
+          <ScalarProperty Name="DedOP" ColumnName="DedOP" />
+          <ScalarProperty Name="DedG" ColumnName="DedG" />
+          <ScalarProperty Name="ClaimID" ColumnName="ClaimID" />
+          <ScalarProperty Name="InsureeID" ColumnName="InsureeID" />
+          <ScalarProperty Name="PolicyID" ColumnName="PolicyID" />
+          <ScalarProperty Name="ExpenditureID" ColumnName="ExpenditureID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblClaimItems">
+      <EntityTypeMapping TypeName="IMISModel.tblClaimItems">
+        <MappingFragment StoreEntitySet="tblClaimItems">
+          <ScalarProperty Name="ExceedCeilingAmountCategory" ColumnName="ExceedCeilingAmountCategory" />
+          <ScalarProperty Name="PriceOrigin" ColumnName="PriceOrigin" />
+          <ScalarProperty Name="ExceedCeilingAmount" ColumnName="ExceedCeilingAmount" />
+          <ScalarProperty Name="DeductableAmount" ColumnName="DeductableAmount" />
+          <ScalarProperty Name="RemuneratedAmount" ColumnName="RemuneratedAmount" />
+          <ScalarProperty Name="PolicyID" ColumnName="PolicyID" />
+          <ScalarProperty Name="Limitation" ColumnName="Limitation" />
+          <ScalarProperty Name="LimitationValue" ColumnName="LimitationValue" />
+          <ScalarProperty Name="AuditUserIDReview" ColumnName="AuditUserIDReview" />
+          <ScalarProperty Name="ValidityToReview" ColumnName="ValidityToReview" />
+          <ScalarProperty Name="ValidityFromReview" ColumnName="ValidityFromReview" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="RejectionReason" ColumnName="RejectionReason" />
+          <ScalarProperty Name="Justification" ColumnName="Justification" />
+          <ScalarProperty Name="Explanation" ColumnName="Explanation" />
+          <ScalarProperty Name="PriceValuated" ColumnName="PriceValuated" />
+          <ScalarProperty Name="PriceApproved" ColumnName="PriceApproved" />
+          <ScalarProperty Name="PriceAdjusted" ColumnName="PriceAdjusted" />
+          <ScalarProperty Name="PriceAsked" ColumnName="PriceAsked" />
+          <ScalarProperty Name="QtyApproved" ColumnName="QtyApproved" />
+          <ScalarProperty Name="QtyProvided" ColumnName="QtyProvided" />
+          <ScalarProperty Name="Availability" ColumnName="Availability" />
+          <ScalarProperty Name="ClaimItemStatus" ColumnName="ClaimItemStatus" />
+          <ScalarProperty Name="ProdID" ColumnName="ProdID" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="ClaimID" ColumnName="ClaimID" />
+          <ScalarProperty Name="ClaimItemID" ColumnName="ClaimItemID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblClaimServices">
+      <EntityTypeMapping TypeName="IMISModel.tblClaimServices">
+        <MappingFragment StoreEntitySet="tblClaimServices">
+          <ScalarProperty Name="ExceedCeilingAmountCategory" ColumnName="ExceedCeilingAmountCategory" />
+          <ScalarProperty Name="PriceOrigin" ColumnName="PriceOrigin" />
+          <ScalarProperty Name="ExceedCeilingAmount" ColumnName="ExceedCeilingAmount" />
+          <ScalarProperty Name="DeductableAmount" ColumnName="DeductableAmount" />
+          <ScalarProperty Name="RemuneratedAmount" ColumnName="RemuneratedAmount" />
+          <ScalarProperty Name="PolicyID" ColumnName="PolicyID" />
+          <ScalarProperty Name="Limitation" ColumnName="Limitation" />
+          <ScalarProperty Name="LimitationValue" ColumnName="LimitationValue" />
+          <ScalarProperty Name="AuditUserIDReview" ColumnName="AuditUserIDReview" />
+          <ScalarProperty Name="ValidityToReview" ColumnName="ValidityToReview" />
+          <ScalarProperty Name="ValidityFromReview" ColumnName="ValidityFromReview" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="RejectionReason" ColumnName="RejectionReason" />
+          <ScalarProperty Name="Justification" ColumnName="Justification" />
+          <ScalarProperty Name="Explanation" ColumnName="Explanation" />
+          <ScalarProperty Name="PriceValuated" ColumnName="PriceValuated" />
+          <ScalarProperty Name="PriceApproved" ColumnName="PriceApproved" />
+          <ScalarProperty Name="PriceAdjusted" ColumnName="PriceAdjusted" />
+          <ScalarProperty Name="PriceAsked" ColumnName="PriceAsked" />
+          <ScalarProperty Name="QtyApproved" ColumnName="QtyApproved" />
+          <ScalarProperty Name="QtyProvided" ColumnName="QtyProvided" />
+          <ScalarProperty Name="ClaimServiceStatus" ColumnName="ClaimServiceStatus" />
+          <ScalarProperty Name="ProdID" ColumnName="ProdID" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="ClaimID" ColumnName="ClaimID" />
+          <ScalarProperty Name="ClaimServiceID" ColumnName="ClaimServiceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblConfirmationTypes">
+      <EntityTypeMapping TypeName="IMISModel.tblConfirmationTypes">
+        <MappingFragment StoreEntitySet="tblConfirmationTypes">
+          <ScalarProperty Name="AltLanguage" ColumnName="AltLanguage" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="ConfirmationType" ColumnName="ConfirmationType" />
+          <ScalarProperty Name="ConfirmationTypeCode" ColumnName="ConfirmationTypeCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblControls">
+      <EntityTypeMapping TypeName="IMISModel.tblControls">
+        <MappingFragment StoreEntitySet="tblControls">
+          <ScalarProperty Name="Usage" ColumnName="Usage" />
+          <ScalarProperty Name="Adjustibility" ColumnName="Adjustibility" />
+          <ScalarProperty Name="FieldName" ColumnName="FieldName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEducations">
+      <EntityTypeMapping TypeName="IMISModel.tblEducations">
+        <MappingFragment StoreEntitySet="tblEducations">
+          <ScalarProperty Name="AltLanguage" ColumnName="AltLanguage" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="Education" ColumnName="Education" />
+          <ScalarProperty Name="EducationId" ColumnName="EducationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblExtracts">
+      <EntityTypeMapping TypeName="IMISModel.tblExtracts">
+        <MappingFragment StoreEntitySet="tblExtracts">
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="AppVersionBackend" ColumnName="AppVersionBackend" />
+          <ScalarProperty Name="HFID" ColumnName="HFID" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="ExtractFolder" ColumnName="ExtractFolder" />
+          <ScalarProperty Name="ExtractFileName" ColumnName="ExtractFileName" />
+          <ScalarProperty Name="ExtractDate" ColumnName="ExtractDate" />
+          <ScalarProperty Name="ExtractSequence" ColumnName="ExtractSequence" />
+          <ScalarProperty Name="ExtractType" ColumnName="ExtractType" />
+          <ScalarProperty Name="ExtractDirection" ColumnName="ExtractDirection" />
+          <ScalarProperty Name="ExtractID" ColumnName="ExtractID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblFamilies">
+      <EntityTypeMapping TypeName="IMISModel.tblFamilies">
+        <MappingFragment StoreEntitySet="tblFamilies">
+          <ScalarProperty Name="ConfirmationType" ColumnName="ConfirmationType" />
+          <ScalarProperty Name="ConfirmationNo" ColumnName="ConfirmationNo" />
+          <ScalarProperty Name="Ethnicity" ColumnName="Ethnicity" />
+          <ScalarProperty Name="isOffline" ColumnName="isOffline" />
+          <ScalarProperty Name="FamilyAddress" ColumnName="FamilyAddress" />
+          <ScalarProperty Name="FamilyType" ColumnName="FamilyType" />
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="Poverty" ColumnName="Poverty" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="InsureeID" ColumnName="InsureeID" />
+          <ScalarProperty Name="FamilyID" ColumnName="FamilyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblFamilyTypes">
+      <EntityTypeMapping TypeName="IMISModel.tblFamilyTypes">
+        <MappingFragment StoreEntitySet="tblFamilyTypes">
+          <ScalarProperty Name="AltLanguage" ColumnName="AltLanguage" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="FamilyType" ColumnName="FamilyType" />
+          <ScalarProperty Name="FamilyTypeCode" ColumnName="FamilyTypeCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblFeedback">
+      <EntityTypeMapping TypeName="IMISModel.tblFeedback">
+        <MappingFragment StoreEntitySet="tblFeedback">
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="FeedbackDate" ColumnName="FeedbackDate" />
+          <ScalarProperty Name="CHFOfficerCode" ColumnName="CHFOfficerCode" />
+          <ScalarProperty Name="Asessment" ColumnName="Asessment" />
+          <ScalarProperty Name="DrugReceived" ColumnName="DrugReceived" />
+          <ScalarProperty Name="DrugPrescribed" ColumnName="DrugPrescribed" />
+          <ScalarProperty Name="PaymentAsked" ColumnName="PaymentAsked" />
+          <ScalarProperty Name="CareRendered" ColumnName="CareRendered" />
+          <ScalarProperty Name="ClaimID" ColumnName="ClaimID" />
+          <ScalarProperty Name="FeedbackID" ColumnName="FeedbackID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblFeedbackPrompt">
+      <EntityTypeMapping TypeName="IMISModel.tblFeedbackPrompt">
+        <MappingFragment StoreEntitySet="tblFeedbackPrompt">
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="SMSStatus" ColumnName="SMSStatus" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="OfficerID" ColumnName="OfficerID" />
+          <ScalarProperty Name="ClaimID" ColumnName="ClaimID" />
+          <ScalarProperty Name="FeedbackPromptDate" ColumnName="FeedbackPromptDate" />
+          <ScalarProperty Name="FeedbackPromptID" ColumnName="FeedbackPromptID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblFromPhone">
+      <EntityTypeMapping TypeName="IMISModel.tblFromPhone">
+        <MappingFragment StoreEntitySet="tblFromPhone">
+          <ScalarProperty Name="ClaimId" ColumnName="ClaimId" />
+          <ScalarProperty Name="PhotoSumittedDate" ColumnName="PhotoSumittedDate" />
+          <ScalarProperty Name="CHFID" ColumnName="CHFID" />
+          <ScalarProperty Name="OfficerCode" ColumnName="OfficerCode" />
+          <ScalarProperty Name="LandedDate" ColumnName="LandedDate" />
+          <ScalarProperty Name="DocStatus" ColumnName="DocStatus" />
+          <ScalarProperty Name="DocName" ColumnName="DocName" />
+          <ScalarProperty Name="DocType" ColumnName="DocType" />
+          <ScalarProperty Name="FromPhoneId" ColumnName="FromPhoneId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblGender">
+      <EntityTypeMapping TypeName="IMISModel.tblGender">
+        <MappingFragment StoreEntitySet="tblGender">
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="AltLanguage" ColumnName="AltLanguage" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblHealthStatus">
+      <EntityTypeMapping TypeName="IMISModel.tblHealthStatus">
+        <MappingFragment StoreEntitySet="tblHealthStatus">
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="InsureeID" ColumnName="InsureeID" />
+          <ScalarProperty Name="HealthStatusID" ColumnName="HealthStatusID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblHF">
+      <EntityTypeMapping TypeName="IMISModel.tblHF">
+        <MappingFragment StoreEntitySet="tblHF">
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="OffLine" ColumnName="OffLine" />
+          <ScalarProperty Name="AccCode" ColumnName="AccCode" />
+          <ScalarProperty Name="PLItemID" ColumnName="PLItemID" />
+          <ScalarProperty Name="PLServiceID" ColumnName="PLServiceID" />
+          <ScalarProperty Name="HFCareType" ColumnName="HFCareType" />
+          <ScalarProperty Name="eMail" ColumnName="eMail" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="HFAddress" ColumnName="HFAddress" />
+          <ScalarProperty Name="HFSublevel" ColumnName="HFSublevel" />
+          <ScalarProperty Name="HFLevel" ColumnName="HFLevel" />
+          <ScalarProperty Name="LegalForm" ColumnName="LegalForm" />
+          <ScalarProperty Name="HFName" ColumnName="HFName" />
+          <ScalarProperty Name="HFCode" ColumnName="HFCode" />
+          <ScalarProperty Name="HfID" ColumnName="HfID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblHFCatchment">
+      <EntityTypeMapping TypeName="IMISModel.tblHFCatchment">
+        <MappingFragment StoreEntitySet="tblHFCatchment">
+          <ScalarProperty Name="AuditUserId" ColumnName="AuditUserId" />
+          <ScalarProperty Name="LegacyId" ColumnName="LegacyId" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="Catchment" ColumnName="Catchment" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="HFID" ColumnName="HFID" />
+          <ScalarProperty Name="HFCatchmentId" ColumnName="HFCatchmentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblHFSublevel">
+      <EntityTypeMapping TypeName="IMISModel.tblHFSublevel">
+        <MappingFragment StoreEntitySet="tblHFSublevel">
+          <ScalarProperty Name="AltLanguage" ColumnName="AltLanguage" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="HFSublevelDesc" ColumnName="HFSublevelDesc" />
+          <ScalarProperty Name="HFSublevel" ColumnName="HFSublevel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblICDCodes">
+      <EntityTypeMapping TypeName="IMISModel.tblICDCodes">
+        <MappingFragment StoreEntitySet="tblICDCodes">
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="ICDName" ColumnName="ICDName" />
+          <ScalarProperty Name="ICDCode" ColumnName="ICDCode" />
+          <ScalarProperty Name="ICDID" ColumnName="ICDID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblIdentificationTypes">
+      <EntityTypeMapping TypeName="IMISModel.tblIdentificationTypes">
+        <MappingFragment StoreEntitySet="tblIdentificationTypes">
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="AltLanguage" ColumnName="AltLanguage" />
+          <ScalarProperty Name="IdentificationTypes" ColumnName="IdentificationTypes" />
+          <ScalarProperty Name="IdentificationCode" ColumnName="IdentificationCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblIMISDefaults">
+      <EntityTypeMapping TypeName="IMISModel.tblIMISDefaults">
+        <MappingFragment StoreEntitySet="tblIMISDefaults">
+          <ScalarProperty Name="AppVersionImis" ColumnName="AppVersionImis" />
+          <ScalarProperty Name="AppVersionFeedbackRenewal" ColumnName="AppVersionFeedbackRenewal" />
+          <ScalarProperty Name="SMSType" ColumnName="SMSType" />
+          <ScalarProperty Name="SMSDlr" ColumnName="SMSDlr" />
+          <ScalarProperty Name="SMSSource" ColumnName="SMSSource" />
+          <ScalarProperty Name="SMSPassword" ColumnName="SMSPassword" />
+          <ScalarProperty Name="SMSUserName" ColumnName="SMSUserName" />
+          <ScalarProperty Name="SMSIP" ColumnName="SMSIP" />
+          <ScalarProperty Name="SMSLink" ColumnName="SMSLink" />
+          <ScalarProperty Name="OfflineCHF" ColumnName="OfflineCHF" />
+          <ScalarProperty Name="DatabaseBackupFolder" ColumnName="DatabaseBackupFolder" />
+          <ScalarProperty Name="WinRarFolder" ColumnName="WinRarFolder" />
+          <ScalarProperty Name="OffLineHF" ColumnName="OffLineHF" />
+          <ScalarProperty Name="AppVersionClaim" ColumnName="AppVersionClaim" />
+          <ScalarProperty Name="AppVersionFeedback" ColumnName="AppVersionFeedback" />
+          <ScalarProperty Name="AppVersionRenewal" ColumnName="AppVersionRenewal" />
+          <ScalarProperty Name="AppVersionEnroll" ColumnName="AppVersionEnroll" />
+          <ScalarProperty Name="AppVersionEnquire" ColumnName="AppVersionEnquire" />
+          <ScalarProperty Name="AppVersionBackEnd" ColumnName="AppVersionBackEnd" />
+          <ScalarProperty Name="FTPOffLineExtractFolder" ColumnName="FTPOffLineExtractFolder" />
+          <ScalarProperty Name="FTPPhoneExtractFolder" ColumnName="FTPPhoneExtractFolder" />
+          <ScalarProperty Name="FTPPolicyRenewalFolder" ColumnName="FTPPolicyRenewalFolder" />
+          <ScalarProperty Name="FTPFeedbackFolder" ColumnName="FTPFeedbackFolder" />
+          <ScalarProperty Name="FTPClaimFolder" ColumnName="FTPClaimFolder" />
+          <ScalarProperty Name="AssociatedPhotoFolder" ColumnName="AssociatedPhotoFolder" />
+          <ScalarProperty Name="FTPEnrollmentFolder" ColumnName="FTPEnrollmentFolder" />
+          <ScalarProperty Name="FTPPort" ColumnName="FTPPort" />
+          <ScalarProperty Name="FTPPassword" ColumnName="FTPPassword" />
+          <ScalarProperty Name="FTPUser" ColumnName="FTPUser" />
+          <ScalarProperty Name="FTPHost" ColumnName="FTPHost" />
+          <ScalarProperty Name="PolicyRenewalInterval" ColumnName="PolicyRenewalInterval" />
+          <ScalarProperty Name="DefaultID" ColumnName="DefaultID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblInsuree">
+      <EntityTypeMapping TypeName="IMISModel.tblInsuree">
+        <MappingFragment StoreEntitySet="tblInsuree">
+          <ScalarProperty Name="CurrentVillage" ColumnName="CurrentVillage" />
+          <ScalarProperty Name="GeoLocation" ColumnName="GeoLocation" />
+          <ScalarProperty Name="CurrentAddress" ColumnName="CurrentAddress" />
+          <ScalarProperty Name="HFID" ColumnName="HFID" />
+          <ScalarProperty Name="TypeOfId" ColumnName="TypeOfId" />
+          <ScalarProperty Name="isOffline" ColumnName="isOffline" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Education" ColumnName="Education" />
+          <ScalarProperty Name="Profession" ColumnName="Profession" />
+          <ScalarProperty Name="Relationship" ColumnName="Relationship" />
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="CardIssued" ColumnName="CardIssued" />
+          <ScalarProperty Name="PhotoDate" ColumnName="PhotoDate" />
+          <ScalarProperty Name="PhotoID" ColumnName="PhotoID" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="passport" ColumnName="passport" />
+          <ScalarProperty Name="IsHead" ColumnName="IsHead" />
+          <ScalarProperty Name="Marital" ColumnName="Marital" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="OtherNames" ColumnName="OtherNames" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="CHFID" ColumnName="CHFID" />
+          <ScalarProperty Name="FamilyID" ColumnName="FamilyID" />
+          <ScalarProperty Name="InsureeID" ColumnName="InsureeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblInsureePolicy">
+      <EntityTypeMapping TypeName="IMISModel.tblInsureePolicy">
+        <MappingFragment StoreEntitySet="tblInsureePolicy">
+          <ScalarProperty Name="RowId" ColumnName="RowId" />
+          <ScalarProperty Name="isOffline" ColumnName="isOffline" />
+          <ScalarProperty Name="AuditUserId" ColumnName="AuditUserId" />
+          <ScalarProperty Name="LegacyId" ColumnName="LegacyId" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="ExpiryDate" ColumnName="ExpiryDate" />
+          <ScalarProperty Name="EffectiveDate" ColumnName="EffectiveDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EnrollmentDate" ColumnName="EnrollmentDate" />
+          <ScalarProperty Name="PolicyId" ColumnName="PolicyId" />
+          <ScalarProperty Name="InsureeId" ColumnName="InsureeId" />
+          <ScalarProperty Name="InsureePolicyId" ColumnName="InsureePolicyId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblItems">
+      <EntityTypeMapping TypeName="IMISModel.tblItems">
+        <MappingFragment StoreEntitySet="tblItems">
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="ItemPatCat" ColumnName="ItemPatCat" />
+          <ScalarProperty Name="ItemFrequency" ColumnName="ItemFrequency" />
+          <ScalarProperty Name="ItemCareType" ColumnName="ItemCareType" />
+          <ScalarProperty Name="ItemPrice" ColumnName="ItemPrice" />
+          <ScalarProperty Name="ItemPackage" ColumnName="ItemPackage" />
+          <ScalarProperty Name="ItemType" ColumnName="ItemType" />
+          <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+          <ScalarProperty Name="ItemCode" ColumnName="ItemCode" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblLanguages">
+      <EntityTypeMapping TypeName="IMISModel.tblLanguages">
+        <MappingFragment StoreEntitySet="tblLanguages">
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="LanguageName" ColumnName="LanguageName" />
+          <ScalarProperty Name="LanguageCode" ColumnName="LanguageCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblLegalForms">
+      <EntityTypeMapping TypeName="IMISModel.tblLegalForms">
+        <MappingFragment StoreEntitySet="tblLegalForms">
+          <ScalarProperty Name="AltLanguage" ColumnName="AltLanguage" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="LegalForms" ColumnName="LegalForms" />
+          <ScalarProperty Name="LegalFormCode" ColumnName="LegalFormCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblLocations">
+      <EntityTypeMapping TypeName="IMISModel.tblLocations">
+        <MappingFragment StoreEntitySet="tblLocations">
+          <ScalarProperty Name="Families" ColumnName="Families" />
+          <ScalarProperty Name="OtherPopulation" ColumnName="OtherPopulation" />
+          <ScalarProperty Name="FemalePopulation" ColumnName="FemalePopulation" />
+          <ScalarProperty Name="MalePopulation" ColumnName="MalePopulation" />
+          <ScalarProperty Name="RowId" ColumnName="RowId" />
+          <ScalarProperty Name="AuditUserId" ColumnName="AuditUserId" />
+          <ScalarProperty Name="LegacyId" ColumnName="LegacyId" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="LocationType" ColumnName="LocationType" />
+          <ScalarProperty Name="ParentLocationId" ColumnName="ParentLocationId" />
+          <ScalarProperty Name="LocationName" ColumnName="LocationName" />
+          <ScalarProperty Name="LocationCode" ColumnName="LocationCode" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblLogins">
+      <EntityTypeMapping TypeName="IMISModel.tblLogins">
+        <MappingFragment StoreEntitySet="tblLogins">
+          <ScalarProperty Name="LogAction" ColumnName="LogAction" />
+          <ScalarProperty Name="LogTime" ColumnName="LogTime" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="LoginId" ColumnName="LoginId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblOfficer">
+      <EntityTypeMapping TypeName="IMISModel.tblOfficer">
+        <MappingFragment StoreEntitySet="tblOfficer">
+          <ScalarProperty Name="HasLogin" ColumnName="HasLogin" />
+          <ScalarProperty Name="permanentaddress" ColumnName="permanentaddress" />
+          <ScalarProperty Name="PhoneCommunication" ColumnName="PhoneCommunication" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="VEOPhone" ColumnName="VEOPhone" />
+          <ScalarProperty Name="VEODOB" ColumnName="VEODOB" />
+          <ScalarProperty Name="VEOOtherNames" ColumnName="VEOOtherNames" />
+          <ScalarProperty Name="VEOLastName" ColumnName="VEOLastName" />
+          <ScalarProperty Name="VEOCode" ColumnName="VEOCode" />
+          <ScalarProperty Name="WorksTo" ColumnName="WorksTo" />
+          <ScalarProperty Name="OfficerIDSubst" ColumnName="OfficerIDSubst" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="OtherNames" ColumnName="OtherNames" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="OfficerID" ColumnName="OfficerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblOfficerVillages">
+      <EntityTypeMapping TypeName="IMISModel.tblOfficerVillages">
+        <MappingFragment StoreEntitySet="tblOfficerVillages">
+          <ScalarProperty Name="RowId" ColumnName="RowId" />
+          <ScalarProperty Name="AuditUserId" ColumnName="AuditUserId" />
+          <ScalarProperty Name="LegacyId" ColumnName="LegacyId" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="OfficerId" ColumnName="OfficerId" />
+          <ScalarProperty Name="OfficerVillageId" ColumnName="OfficerVillageId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPayer">
+      <EntityTypeMapping TypeName="IMISModel.tblPayer">
+        <MappingFragment StoreEntitySet="tblPayer">
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="eMail" ColumnName="eMail" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="PayerAddress" ColumnName="PayerAddress" />
+          <ScalarProperty Name="PayerName" ColumnName="PayerName" />
+          <ScalarProperty Name="PayerType" ColumnName="PayerType" />
+          <ScalarProperty Name="PayerID" ColumnName="PayerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPayerType">
+      <EntityTypeMapping TypeName="IMISModel.tblPayerType">
+        <MappingFragment StoreEntitySet="tblPayerType">
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="AltLanguage" ColumnName="AltLanguage" />
+          <ScalarProperty Name="PayerType" ColumnName="PayerType" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPhotos">
+      <EntityTypeMapping TypeName="IMISModel.tblPhotos">
+        <MappingFragment StoreEntitySet="tblPhotos">
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="PhotoDate" ColumnName="PhotoDate" />
+          <ScalarProperty Name="OfficerID" ColumnName="OfficerID" />
+          <ScalarProperty Name="PhotoFileName" ColumnName="PhotoFileName" />
+          <ScalarProperty Name="PhotoFolder" ColumnName="PhotoFolder" />
+          <ScalarProperty Name="CHFID" ColumnName="CHFID" />
+          <ScalarProperty Name="InsureeID" ColumnName="InsureeID" />
+          <ScalarProperty Name="PhotoID" ColumnName="PhotoID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPLItems">
+      <EntityTypeMapping TypeName="IMISModel.tblPLItems">
+        <MappingFragment StoreEntitySet="tblPLItems">
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="DatePL" ColumnName="DatePL" />
+          <ScalarProperty Name="PLItemName" ColumnName="PLItemName" />
+          <ScalarProperty Name="PLItemID" ColumnName="PLItemID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPLItemsDetail">
+      <EntityTypeMapping TypeName="IMISModel.tblPLItemsDetail">
+        <MappingFragment StoreEntitySet="tblPLItemsDetail">
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="PriceOverule" ColumnName="PriceOverule" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="PLItemID" ColumnName="PLItemID" />
+          <ScalarProperty Name="PLItemDetailID" ColumnName="PLItemDetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPLServices">
+      <EntityTypeMapping TypeName="IMISModel.tblPLServices">
+        <MappingFragment StoreEntitySet="tblPLServices">
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="DatePL" ColumnName="DatePL" />
+          <ScalarProperty Name="PLServName" ColumnName="PLServName" />
+          <ScalarProperty Name="PLServiceID" ColumnName="PLServiceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPLServicesDetail">
+      <EntityTypeMapping TypeName="IMISModel.tblPLServicesDetail">
+        <MappingFragment StoreEntitySet="tblPLServicesDetail">
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="PriceOverule" ColumnName="PriceOverule" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="PLServiceID" ColumnName="PLServiceID" />
+          <ScalarProperty Name="PLServiceDetailID" ColumnName="PLServiceDetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPolicy">
+      <EntityTypeMapping TypeName="IMISModel.tblPolicy">
+        <MappingFragment StoreEntitySet="tblPolicy">
+          <ScalarProperty Name="isOffline" ColumnName="isOffline" />
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="PolicyStage" ColumnName="PolicyStage" />
+          <ScalarProperty Name="OfficerID" ColumnName="OfficerID" />
+          <ScalarProperty Name="ProdID" ColumnName="ProdID" />
+          <ScalarProperty Name="PolicyValue" ColumnName="PolicyValue" />
+          <ScalarProperty Name="PolicyStatus" ColumnName="PolicyStatus" />
+          <ScalarProperty Name="ExpiryDate" ColumnName="ExpiryDate" />
+          <ScalarProperty Name="EffectiveDate" ColumnName="EffectiveDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EnrollDate" ColumnName="EnrollDate" />
+          <ScalarProperty Name="FamilyID" ColumnName="FamilyID" />
+          <ScalarProperty Name="PolicyID" ColumnName="PolicyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPolicyRenewalDetails">
+      <EntityTypeMapping TypeName="IMISModel.tblPolicyRenewalDetails">
+        <MappingFragment StoreEntitySet="tblPolicyRenewalDetails">
+          <ScalarProperty Name="AuditCreateUser" ColumnName="AuditCreateUser" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="InsureeID" ColumnName="InsureeID" />
+          <ScalarProperty Name="RenewalID" ColumnName="RenewalID" />
+          <ScalarProperty Name="RenewalDetailID" ColumnName="RenewalDetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPolicyRenewals">
+      <EntityTypeMapping TypeName="IMISModel.tblPolicyRenewals">
+        <MappingFragment StoreEntitySet="tblPolicyRenewals">
+          <ScalarProperty Name="ResponseDate" ColumnName="ResponseDate" />
+          <ScalarProperty Name="ResponseStatus" ColumnName="ResponseStatus" />
+          <ScalarProperty Name="AuditCreateUser" ColumnName="AuditCreateUser" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="RenewalWarnings" ColumnName="RenewalWarnings" />
+          <ScalarProperty Name="NewProdID" ColumnName="NewProdID" />
+          <ScalarProperty Name="PolicyID" ColumnName="PolicyID" />
+          <ScalarProperty Name="InsureeID" ColumnName="InsureeID" />
+          <ScalarProperty Name="SMSStatus" ColumnName="SMSStatus" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="NewOfficerID" ColumnName="NewOfficerID" />
+          <ScalarProperty Name="RenewalDate" ColumnName="RenewalDate" />
+          <ScalarProperty Name="RenewalPromptDate" ColumnName="RenewalPromptDate" />
+          <ScalarProperty Name="RenewalID" ColumnName="RenewalID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPremium">
+      <EntityTypeMapping TypeName="IMISModel.tblPremium">
+        <MappingFragment StoreEntitySet="tblPremium">
+          <ScalarProperty Name="ReportingId" ColumnName="ReportingId" />
+          <ScalarProperty Name="isOffline" ColumnName="isOffline" />
+          <ScalarProperty Name="isPhotoFee" ColumnName="isPhotoFee" />
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="PayType" ColumnName="PayType" />
+          <ScalarProperty Name="PayDate" ColumnName="PayDate" />
+          <ScalarProperty Name="Receipt" ColumnName="Receipt" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="PayerID" ColumnName="PayerID" />
+          <ScalarProperty Name="PolicyID" ColumnName="PolicyID" />
+          <ScalarProperty Name="PremiumId" ColumnName="PremiumId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProduct">
+      <EntityTypeMapping TypeName="IMISModel.tblProduct">
+        <MappingFragment StoreEntitySet="tblProduct">
+          <ScalarProperty Name="WeightAdjustedAmount" ColumnName="WeightAdjustedAmount" />
+          <ScalarProperty Name="WeightNumberVisits" ColumnName="WeightNumberVisits" />
+          <ScalarProperty Name="WeightNumberInsuredFamilies" ColumnName="WeightNumberInsuredFamilies" />
+          <ScalarProperty Name="WeightInsuredPopulation" ColumnName="WeightInsuredPopulation" />
+          <ScalarProperty Name="WeightNumberFamilies" ColumnName="WeightNumberFamilies" />
+          <ScalarProperty Name="WeightPopulation" ColumnName="WeightPopulation" />
+          <ScalarProperty Name="ShareContribution" ColumnName="ShareContribution" />
+          <ScalarProperty Name="Sublevel4" ColumnName="Sublevel4" />
+          <ScalarProperty Name="Level4" ColumnName="Level4" />
+          <ScalarProperty Name="Sublevel3" ColumnName="Sublevel3" />
+          <ScalarProperty Name="Level3" ColumnName="Level3" />
+          <ScalarProperty Name="Sublevel2" ColumnName="Sublevel2" />
+          <ScalarProperty Name="Level2" ColumnName="Level2" />
+          <ScalarProperty Name="Sublevel1" ColumnName="Sublevel1" />
+          <ScalarProperty Name="Level1" ColumnName="Level1" />
+          <ScalarProperty Name="CeilingInterpretation" ColumnName="CeilingInterpretation" />
+          <ScalarProperty Name="MaxNoAntenatal" ColumnName="MaxNoAntenatal" />
+          <ScalarProperty Name="MaxAmountAntenatal" ColumnName="MaxAmountAntenatal" />
+          <ScalarProperty Name="EnrolmentDiscountPeriod" ColumnName="EnrolmentDiscountPeriod" />
+          <ScalarProperty Name="EnrolmentDiscountPerc" ColumnName="EnrolmentDiscountPerc" />
+          <ScalarProperty Name="MaxCeilingPolicyOP" ColumnName="MaxCeilingPolicyOP" />
+          <ScalarProperty Name="MaxCeilingPolicyIP" ColumnName="MaxCeilingPolicyIP" />
+          <ScalarProperty Name="MaxCeilingPolicy" ColumnName="MaxCeilingPolicy" />
+          <ScalarProperty Name="MaxPolicyExtraMemberOP" ColumnName="MaxPolicyExtraMemberOP" />
+          <ScalarProperty Name="MaxPolicyExtraMemberIP" ColumnName="MaxPolicyExtraMemberIP" />
+          <ScalarProperty Name="MaxPolicyExtraMember" ColumnName="MaxPolicyExtraMember" />
+          <ScalarProperty Name="AdministrationPeriod" ColumnName="AdministrationPeriod" />
+          <ScalarProperty Name="StartCycle4" ColumnName="StartCycle4" />
+          <ScalarProperty Name="StartCycle3" ColumnName="StartCycle3" />
+          <ScalarProperty Name="RenewalDiscountPeriod" ColumnName="RenewalDiscountPeriod" />
+          <ScalarProperty Name="RenewalDiscountPerc" ColumnName="RenewalDiscountPerc" />
+          <ScalarProperty Name="Threshold" ColumnName="Threshold" />
+          <ScalarProperty Name="WaitingPeriod" ColumnName="WaitingPeriod" />
+          <ScalarProperty Name="MaxInstallments" ColumnName="MaxInstallments" />
+          <ScalarProperty Name="GracePeriodRenewal" ColumnName="GracePeriodRenewal" />
+          <ScalarProperty Name="MaxAmountHospitalization" ColumnName="MaxAmountHospitalization" />
+          <ScalarProperty Name="MaxAmountDelivery" ColumnName="MaxAmountDelivery" />
+          <ScalarProperty Name="MaxAmountSurgery" ColumnName="MaxAmountSurgery" />
+          <ScalarProperty Name="MaxAmountConsultation" ColumnName="MaxAmountConsultation" />
+          <ScalarProperty Name="MaxNoVisits" ColumnName="MaxNoVisits" />
+          <ScalarProperty Name="MaxNoHospitalizaion" ColumnName="MaxNoHospitalizaion" />
+          <ScalarProperty Name="MaxNoDelivery" ColumnName="MaxNoDelivery" />
+          <ScalarProperty Name="MaxNoSurgery" ColumnName="MaxNoSurgery" />
+          <ScalarProperty Name="MaxNoConsultation" ColumnName="MaxNoConsultation" />
+          <ScalarProperty Name="StartCycle2" ColumnName="StartCycle2" />
+          <ScalarProperty Name="StartCycle1" ColumnName="StartCycle1" />
+          <ScalarProperty Name="GeneralAssemblyFee" ColumnName="GeneralAssemblyFee" />
+          <ScalarProperty Name="GeneralAssemblyLumpSum" ColumnName="GeneralAssemblyLumpSum" />
+          <ScalarProperty Name="RegistrationFee" ColumnName="RegistrationFee" />
+          <ScalarProperty Name="RegistrationLumpSum" ColumnName="RegistrationLumpSum" />
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="GracePeriod" ColumnName="GracePeriod" />
+          <ScalarProperty Name="MaxIPPolicy" ColumnName="MaxIPPolicy" />
+          <ScalarProperty Name="MaxOPPolicy" ColumnName="MaxOPPolicy" />
+          <ScalarProperty Name="MaxPolicy" ColumnName="MaxPolicy" />
+          <ScalarProperty Name="DedIPPolicy" ColumnName="DedIPPolicy" />
+          <ScalarProperty Name="DedOPPolicy" ColumnName="DedOPPolicy" />
+          <ScalarProperty Name="DedPolicy" ColumnName="DedPolicy" />
+          <ScalarProperty Name="MaxIPTreatment" ColumnName="MaxIPTreatment" />
+          <ScalarProperty Name="MaxOPTreatment" ColumnName="MaxOPTreatment" />
+          <ScalarProperty Name="MaxTreatment" ColumnName="MaxTreatment" />
+          <ScalarProperty Name="DedIPTreatment" ColumnName="DedIPTreatment" />
+          <ScalarProperty Name="DedOPTreatment" ColumnName="DedOPTreatment" />
+          <ScalarProperty Name="DedTreatment" ColumnName="DedTreatment" />
+          <ScalarProperty Name="AccCodeRemuneration" ColumnName="AccCodeRemuneration" />
+          <ScalarProperty Name="AccCodePremiums" ColumnName="AccCodePremiums" />
+          <ScalarProperty Name="PeriodRelPricesIP" ColumnName="PeriodRelPricesIP" />
+          <ScalarProperty Name="PeriodRelPricesOP" ColumnName="PeriodRelPricesOP" />
+          <ScalarProperty Name="PeriodRelPrices" ColumnName="PeriodRelPrices" />
+          <ScalarProperty Name="MaxIPInsuree" ColumnName="MaxIPInsuree" />
+          <ScalarProperty Name="MaxOPInsuree" ColumnName="MaxOPInsuree" />
+          <ScalarProperty Name="MaxInsuree" ColumnName="MaxInsuree" />
+          <ScalarProperty Name="DedIPInsuree" ColumnName="DedIPInsuree" />
+          <ScalarProperty Name="DedOPInsuree" ColumnName="DedOPInsuree" />
+          <ScalarProperty Name="DedInsuree" ColumnName="DedInsuree" />
+          <ScalarProperty Name="PremiumChild" ColumnName="PremiumChild" />
+          <ScalarProperty Name="PremiumAdult" ColumnName="PremiumAdult" />
+          <ScalarProperty Name="MemberCount" ColumnName="MemberCount" />
+          <ScalarProperty Name="LumpSum" ColumnName="LumpSum" />
+          <ScalarProperty Name="ConversionProdID" ColumnName="ConversionProdID" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="InsurancePeriod" ColumnName="InsurancePeriod" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="ProdID" ColumnName="ProdID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProductItems">
+      <EntityTypeMapping TypeName="IMISModel.tblProductItems">
+        <MappingFragment StoreEntitySet="tblProductItems">
+          <ScalarProperty Name="CeilingExclusionChild" ColumnName="CeilingExclusionChild" />
+          <ScalarProperty Name="CeilingExclusionAdult" ColumnName="CeilingExclusionAdult" />
+          <ScalarProperty Name="LimitChildE" ColumnName="LimitChildE" />
+          <ScalarProperty Name="LimitChildR" ColumnName="LimitChildR" />
+          <ScalarProperty Name="LimitAdultE" ColumnName="LimitAdultE" />
+          <ScalarProperty Name="LimitAdultR" ColumnName="LimitAdultR" />
+          <ScalarProperty Name="LimitationTypeE" ColumnName="LimitationTypeE" />
+          <ScalarProperty Name="LimitationTypeR" ColumnName="LimitationTypeR" />
+          <ScalarProperty Name="LimitNoChild" ColumnName="LimitNoChild" />
+          <ScalarProperty Name="LimitNoAdult" ColumnName="LimitNoAdult" />
+          <ScalarProperty Name="WaitingPeriodChild" ColumnName="WaitingPeriodChild" />
+          <ScalarProperty Name="WaitingPeriodAdult" ColumnName="WaitingPeriodAdult" />
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="LimitChild" ColumnName="LimitChild" />
+          <ScalarProperty Name="LimitAdult" ColumnName="LimitAdult" />
+          <ScalarProperty Name="PriceOrigin" ColumnName="PriceOrigin" />
+          <ScalarProperty Name="LimitationType" ColumnName="LimitationType" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="ProdID" ColumnName="ProdID" />
+          <ScalarProperty Name="ProdItemID" ColumnName="ProdItemID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProductServices">
+      <EntityTypeMapping TypeName="IMISModel.tblProductServices">
+        <MappingFragment StoreEntitySet="tblProductServices">
+          <ScalarProperty Name="CeilingExclusionChild" ColumnName="CeilingExclusionChild" />
+          <ScalarProperty Name="CeilingExclusionAdult" ColumnName="CeilingExclusionAdult" />
+          <ScalarProperty Name="LimitChildE" ColumnName="LimitChildE" />
+          <ScalarProperty Name="LimitChildR" ColumnName="LimitChildR" />
+          <ScalarProperty Name="LimitAdultE" ColumnName="LimitAdultE" />
+          <ScalarProperty Name="LimitAdultR" ColumnName="LimitAdultR" />
+          <ScalarProperty Name="LimitationTypeE" ColumnName="LimitationTypeE" />
+          <ScalarProperty Name="LimitationTypeR" ColumnName="LimitationTypeR" />
+          <ScalarProperty Name="LimitNoChild" ColumnName="LimitNoChild" />
+          <ScalarProperty Name="LimitNoAdult" ColumnName="LimitNoAdult" />
+          <ScalarProperty Name="WaitingPeriodChild" ColumnName="WaitingPeriodChild" />
+          <ScalarProperty Name="WaitingPeriodAdult" ColumnName="WaitingPeriodAdult" />
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="LimitChild" ColumnName="LimitChild" />
+          <ScalarProperty Name="LimitAdult" ColumnName="LimitAdult" />
+          <ScalarProperty Name="PriceOrigin" ColumnName="PriceOrigin" />
+          <ScalarProperty Name="LimitationType" ColumnName="LimitationType" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="ProdID" ColumnName="ProdID" />
+          <ScalarProperty Name="ProdServiceID" ColumnName="ProdServiceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProfessions">
+      <EntityTypeMapping TypeName="IMISModel.tblProfessions">
+        <MappingFragment StoreEntitySet="tblProfessions">
+          <ScalarProperty Name="AltLanguage" ColumnName="AltLanguage" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="Profession" ColumnName="Profession" />
+          <ScalarProperty Name="ProfessionId" ColumnName="ProfessionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblRelations">
+      <EntityTypeMapping TypeName="IMISModel.tblRelations">
+        <MappingFragment StoreEntitySet="tblRelations">
+          <ScalarProperty Name="AltLanguage" ColumnName="AltLanguage" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="Relation" ColumnName="Relation" />
+          <ScalarProperty Name="RelationId" ColumnName="RelationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblRelDistr">
+      <EntityTypeMapping TypeName="IMISModel.tblRelDistr">
+        <MappingFragment StoreEntitySet="tblRelDistr">
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="DistrPerc" ColumnName="DistrPerc" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="ProdID" ColumnName="ProdID" />
+          <ScalarProperty Name="DistrCareType" ColumnName="DistrCareType" />
+          <ScalarProperty Name="DistrType" ColumnName="DistrType" />
+          <ScalarProperty Name="DistrID" ColumnName="DistrID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblRelIndex">
+      <EntityTypeMapping TypeName="IMISModel.tblRelIndex">
+        <MappingFragment StoreEntitySet="tblRelIndex">
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="RelIndex" ColumnName="RelIndex" />
+          <ScalarProperty Name="CalcDate" ColumnName="CalcDate" />
+          <ScalarProperty Name="RelPeriod" ColumnName="RelPeriod" />
+          <ScalarProperty Name="RelYear" ColumnName="RelYear" />
+          <ScalarProperty Name="RelCareType" ColumnName="RelCareType" />
+          <ScalarProperty Name="RelType" ColumnName="RelType" />
+          <ScalarProperty Name="ProdID" ColumnName="ProdID" />
+          <ScalarProperty Name="RelIndexID" ColumnName="RelIndexID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblReporting">
+      <EntityTypeMapping TypeName="IMISModel.tblReporting">
+        <MappingFragment StoreEntitySet="tblReporting">
+          <ScalarProperty Name="RecordFound" ColumnName="RecordFound" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="PayerId" ColumnName="PayerId" />
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="ReportingDate" ColumnName="ReportingDate" />
+          <ScalarProperty Name="ReportingId" ColumnName="ReportingId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblRole">
+      <EntityTypeMapping TypeName="IMISModel.tblRole">
+        <MappingFragment StoreEntitySet="tblRole">
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="IsBlocked" ColumnName="IsBlocked" />
+          <ScalarProperty Name="IsSystem" ColumnName="IsSystem" />
+          <ScalarProperty Name="AltLanguage" ColumnName="AltLanguage" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblRoleRight">
+      <EntityTypeMapping TypeName="IMISModel.tblRoleRight">
+        <MappingFragment StoreEntitySet="tblRoleRight">
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="AuditUserId" ColumnName="AuditUserId" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="RightID" ColumnName="RightID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleRightID" ColumnName="RoleRightID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblServices">
+      <EntityTypeMapping TypeName="IMISModel.tblServices">
+        <MappingFragment StoreEntitySet="tblServices">
+          <ScalarProperty Name="ServCategory" ColumnName="ServCategory" />
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="ServPatCat" ColumnName="ServPatCat" />
+          <ScalarProperty Name="ServFrequency" ColumnName="ServFrequency" />
+          <ScalarProperty Name="ServCareType" ColumnName="ServCareType" />
+          <ScalarProperty Name="ServPrice" ColumnName="ServPrice" />
+          <ScalarProperty Name="ServLevel" ColumnName="ServLevel" />
+          <ScalarProperty Name="ServType" ColumnName="ServType" />
+          <ScalarProperty Name="ServName" ColumnName="ServName" />
+          <ScalarProperty Name="ServCode" ColumnName="ServCode" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSubmittedPhotos">
+      <EntityTypeMapping TypeName="IMISModel.tblSubmittedPhotos">
+        <MappingFragment StoreEntitySet="tblSubmittedPhotos">
+          <ScalarProperty Name="RegisterDate" ColumnName="RegisterDate" />
+          <ScalarProperty Name="PhotoDate" ColumnName="PhotoDate" />
+          <ScalarProperty Name="OfficerCode" ColumnName="OfficerCode" />
+          <ScalarProperty Name="CHFID" ColumnName="CHFID" />
+          <ScalarProperty Name="ImageName" ColumnName="ImageName" />
+          <ScalarProperty Name="PhotoId" ColumnName="PhotoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUserRole">
+      <EntityTypeMapping TypeName="IMISModel.tblUserRole">
+        <MappingFragment StoreEntitySet="tblUserRole">
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="AudituserID" ColumnName="AudituserID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserRoleID" ColumnName="UserRoleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUsers">
+      <EntityTypeMapping TypeName="IMISModel.tblUsers">
+        <MappingFragment StoreEntitySet="tblUsers">
+          <ScalarProperty Name="IsAssociated" ColumnName="IsAssociated" />
+          <ScalarProperty Name="PasswordValidity" ColumnName="PasswordValidity" />
+          <ScalarProperty Name="PrivateKey" ColumnName="PrivateKey" />
+          <ScalarProperty Name="StoredPassword" ColumnName="StoredPassword" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="DummyPwd" ColumnName="DummyPwd" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="HFID" ColumnName="HFID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="LoginName" ColumnName="LoginName" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="OtherNames" ColumnName="OtherNames" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="LanguageID" ColumnName="LanguageID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUsersDistricts">
+      <EntityTypeMapping TypeName="IMISModel.tblUsersDistricts">
+        <MappingFragment StoreEntitySet="tblUsersDistricts">
+          <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+          <ScalarProperty Name="LegacyID" ColumnName="LegacyID" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserDistrictID" ColumnName="UserDistrictID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEmailSettings">
+      <EntityTypeMapping TypeName="IMISModel.tblEmailSettings">
+        <MappingFragment StoreEntitySet="tblEmailSettings">
+          <ScalarProperty Name="EnableSSL" ColumnName="EnableSSL" />
+          <ScalarProperty Name="Port" ColumnName="Port" />
+          <ScalarProperty Name="SMTPHost" ColumnName="SMTPHost" />
+          <ScalarProperty Name="EmailPassword" ColumnName="EmailPassword" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDistricts">
+      <EntityTypeMapping TypeName="IMISModel.tblDistricts">
+        <MappingFragment StoreEntitySet="tblDistricts">
+          <ScalarProperty Name="RowId" ColumnName="RowId" />
+          <ScalarProperty Name="AuditUserId" ColumnName="AuditUserId" />
+          <ScalarProperty Name="LegacyId" ColumnName="LegacyId" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="DistrictCode" ColumnName="DistrictCode" />
+          <ScalarProperty Name="DistrictId" ColumnName="DistrictId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblRegions">
+      <EntityTypeMapping TypeName="IMISModel.tblRegions">
+        <MappingFragment StoreEntitySet="tblRegions">
+          <ScalarProperty Name="RowId" ColumnName="RowId" />
+          <ScalarProperty Name="AuditUserId" ColumnName="AuditUserId" />
+          <ScalarProperty Name="LegacyId" ColumnName="LegacyId" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="RegionName" ColumnName="RegionName" />
+          <ScalarProperty Name="RegionCode" ColumnName="RegionCode" />
+          <ScalarProperty Name="RegionId" ColumnName="RegionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblVillages">
+      <EntityTypeMapping TypeName="IMISModel.tblVillages">
+        <MappingFragment StoreEntitySet="tblVillages">
+          <ScalarProperty Name="RowId" ColumnName="RowId" />
+          <ScalarProperty Name="AuditUserId" ColumnName="AuditUserId" />
+          <ScalarProperty Name="LegacyId" ColumnName="LegacyId" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="Families" ColumnName="Families" />
+          <ScalarProperty Name="OtherPopulation" ColumnName="OtherPopulation" />
+          <ScalarProperty Name="FemalePopulation" ColumnName="FemalePopulation" />
+          <ScalarProperty Name="MalePopulation" ColumnName="MalePopulation" />
+          <ScalarProperty Name="VillageName" ColumnName="VillageName" />
+          <ScalarProperty Name="VillageCode" ColumnName="VillageCode" />
+          <ScalarProperty Name="WardId" ColumnName="WardId" />
+          <ScalarProperty Name="VillageId" ColumnName="VillageId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblWards">
+      <EntityTypeMapping TypeName="IMISModel.tblWards">
+        <MappingFragment StoreEntitySet="tblWards">
+          <ScalarProperty Name="RowId" ColumnName="RowId" />
+          <ScalarProperty Name="AuditUserId" ColumnName="AuditUserId" />
+          <ScalarProperty Name="LegacyId" ColumnName="LegacyId" />
+          <ScalarProperty Name="ValidityTo" ColumnName="ValidityTo" />
+          <ScalarProperty Name="ValidityFrom" ColumnName="ValidityFrom" />
+          <ScalarProperty Name="WardName" ColumnName="WardName" />
+          <ScalarProperty Name="WardCode" ColumnName="WardCode" />
+          <ScalarProperty Name="DistrictId" ColumnName="DistrictId" />
+          <ScalarProperty Name="WardId" ColumnName="WardId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uvwLocations">
+      <EntityTypeMapping TypeName="IMISModel.uvwLocations">
+        <MappingFragment StoreEntitySet="uvwLocations">
+          <ScalarProperty Name="ParentLocationId" ColumnName="ParentLocationId" />
+          <ScalarProperty Name="VillageName" ColumnName="VillageName" />
+          <ScalarProperty Name="VillageCode" ColumnName="VillageCode" />
+          <ScalarProperty Name="VillageId" ColumnName="VillageId" />
+          <ScalarProperty Name="WardName" ColumnName="WardName" />
+          <ScalarProperty Name="WardCode" ColumnName="WardCode" />
+          <ScalarProperty Name="WardId" ColumnName="WardId" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="DistrictCode" ColumnName="DistrictCode" />
+          <ScalarProperty Name="DistrictId" ColumnName="DistrictId" />
+          <ScalarProperty Name="RegionName" ColumnName="RegionName" />
+          <ScalarProperty Name="RegionCode" ColumnName="RegionCode" />
+          <ScalarProperty Name="RegionId" ColumnName="RegionId" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uvwClaimSent">
+      <EntityTypeMapping TypeName="IMISModel.uvwClaimSent">
+        <MappingFragment StoreEntitySet="uvwClaimSent">
+          <ScalarProperty Name="HFRegion" ColumnName="HFRegion" />
+          <ScalarProperty Name="HFDistrict" ColumnName="HFDistrict" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="HFName" ColumnName="HFName" />
+          <ScalarProperty Name="HFCode" ColumnName="HFCode" />
+          <ScalarProperty Name="HFLevel" ColumnName="HFLevel" />
+          <ScalarProperty Name="YearTime" ColumnName="YearTime" />
+          <ScalarProperty Name="QuarterTime" ColumnName="QuarterTime" />
+          <ScalarProperty Name="MonthTime" ColumnName="MonthTime" />
+          <ScalarProperty Name="ClaimSent" ColumnName="ClaimSent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uvwExpenditureInsureeRange">
+      <EntityTypeMapping TypeName="IMISModel.uvwExpenditureInsureeRange">
+        <MappingFragment StoreEntitySet="uvwExpenditureInsureeRange">
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="YearTime" ColumnName="YearTime" />
+          <ScalarProperty Name="QuarterTime" ColumnName="QuarterTime" />
+          <ScalarProperty Name="MonthTime" ColumnName="MonthTime" />
+          <ScalarProperty Name="Insuree" ColumnName="Insuree" />
+          <ScalarProperty Name="Valuated" ColumnName="Valuated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uvwItemExpenditures">
+      <EntityTypeMapping TypeName="IMISModel.uvwItemExpenditures">
+        <MappingFragment StoreEntitySet="uvwItemExpenditures">
+          <ScalarProperty Name="ProdRegion" ColumnName="ProdRegion" />
+          <ScalarProperty Name="HFRegion" ColumnName="HFRegion" />
+          <ScalarProperty Name="HFDistrict" ColumnName="HFDistrict" />
+          <ScalarProperty Name="VillageName" ColumnName="VillageName" />
+          <ScalarProperty Name="WardName" ColumnName="WardName" />
+          <ScalarProperty Name="IDistrictName" ColumnName="IDistrictName" />
+          <ScalarProperty Name="ICDName" ColumnName="ICDName" />
+          <ScalarProperty Name="ICDCode" ColumnName="ICDCode" />
+          <ScalarProperty Name="VisitType" ColumnName="VisitType" />
+          <ScalarProperty Name="HFName" ColumnName="HFName" />
+          <ScalarProperty Name="HFCode" ColumnName="HFCode" />
+          <ScalarProperty Name="HFLevel" ColumnName="HFLevel" />
+          <ScalarProperty Name="ItemCareType" ColumnName="ItemCareType" />
+          <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+          <ScalarProperty Name="ItemCode" ColumnName="ItemCode" />
+          <ScalarProperty Name="ItemType" ColumnName="ItemType" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="YearTime" ColumnName="YearTime" />
+          <ScalarProperty Name="QuarterTime" ColumnName="QuarterTime" />
+          <ScalarProperty Name="MonthTime" ColumnName="MonthTime" />
+          <ScalarProperty Name="ItemExpenditure" ColumnName="ItemExpenditure" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uvwItemUtilization">
+      <EntityTypeMapping TypeName="IMISModel.uvwItemUtilization">
+        <MappingFragment StoreEntitySet="uvwItemUtilization">
+          <ScalarProperty Name="ProdRegion" ColumnName="ProdRegion" />
+          <ScalarProperty Name="HFRegion" ColumnName="HFRegion" />
+          <ScalarProperty Name="VisitType" ColumnName="VisitType" />
+          <ScalarProperty Name="HFDistrict" ColumnName="HFDistrict" />
+          <ScalarProperty Name="VillageName" ColumnName="VillageName" />
+          <ScalarProperty Name="WardName" ColumnName="WardName" />
+          <ScalarProperty Name="IDistrictName" ColumnName="IDistrictName" />
+          <ScalarProperty Name="ICDName" ColumnName="ICDName" />
+          <ScalarProperty Name="ICDCode" ColumnName="ICDCode" />
+          <ScalarProperty Name="HFName" ColumnName="HFName" />
+          <ScalarProperty Name="HFCode" ColumnName="HFCode" />
+          <ScalarProperty Name="HFLevel" ColumnName="HFLevel" />
+          <ScalarProperty Name="ItemCareType" ColumnName="ItemCareType" />
+          <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+          <ScalarProperty Name="ItemCode" ColumnName="ItemCode" />
+          <ScalarProperty Name="ItemType" ColumnName="ItemType" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="YearTime" ColumnName="YearTime" />
+          <ScalarProperty Name="QuarterTime" ColumnName="QuarterTime" />
+          <ScalarProperty Name="MonthTime" ColumnName="MonthTime" />
+          <ScalarProperty Name="ItemUtilized" ColumnName="ItemUtilized" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uvwNumberFeedbackAnswerYes">
+      <EntityTypeMapping TypeName="IMISModel.uvwNumberFeedbackAnswerYes">
+        <MappingFragment StoreEntitySet="uvwNumberFeedbackAnswerYes">
+          <ScalarProperty Name="HFRegion" ColumnName="HFRegion" />
+          <ScalarProperty Name="HFDistrict" ColumnName="HFDistrict" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="HFName" ColumnName="HFName" />
+          <ScalarProperty Name="HFCode" ColumnName="HFCode" />
+          <ScalarProperty Name="HFLevel" ColumnName="HFLevel" />
+          <ScalarProperty Name="YearTime" ColumnName="YearTime" />
+          <ScalarProperty Name="QuarterTime" ColumnName="QuarterTime" />
+          <ScalarProperty Name="MonthTime" ColumnName="MonthTime" />
+          <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+          <ScalarProperty Name="AnsYes" ColumnName="AnsYes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uvwNumberFeedbackResponded">
+      <EntityTypeMapping TypeName="IMISModel.uvwNumberFeedbackResponded">
+        <MappingFragment StoreEntitySet="uvwNumberFeedbackResponded">
+          <ScalarProperty Name="HFRegion" ColumnName="HFRegion" />
+          <ScalarProperty Name="HFDistrict" ColumnName="HFDistrict" />
+          <ScalarProperty Name="HFName" ColumnName="HFName" />
+          <ScalarProperty Name="HFCode" ColumnName="HFCode" />
+          <ScalarProperty Name="HFLevel" ColumnName="HFLevel" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="YearTime" ColumnName="YearTime" />
+          <ScalarProperty Name="QuarterTime" ColumnName="QuarterTime" />
+          <ScalarProperty Name="MonthTime" ColumnName="MonthTime" />
+          <ScalarProperty Name="FeedbackResponded" ColumnName="FeedbackResponded" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uvwNumberFeedbackSent">
+      <EntityTypeMapping TypeName="IMISModel.uvwNumberFeedbackSent">
+        <MappingFragment StoreEntitySet="uvwNumberFeedbackSent">
+          <ScalarProperty Name="HFRegion" ColumnName="HFRegion" />
+          <ScalarProperty Name="HFDistrict" ColumnName="HFDistrict" />
+          <ScalarProperty Name="HFName" ColumnName="HFName" />
+          <ScalarProperty Name="HFCode" ColumnName="HFCode" />
+          <ScalarProperty Name="HFLevel" ColumnName="HFLevel" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="YearTime" ColumnName="YearTime" />
+          <ScalarProperty Name="QuarterTime" ColumnName="QuarterTime" />
+          <ScalarProperty Name="MonthTime" ColumnName="MonthTime" />
+          <ScalarProperty Name="FeedbackSent" ColumnName="FeedbackSent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uvwNumberInsureeAcquired">
+      <EntityTypeMapping TypeName="IMISModel.uvwNumberInsureeAcquired">
+        <MappingFragment StoreEntitySet="uvwNumberInsureeAcquired">
+          <ScalarProperty Name="ProdRegion" ColumnName="ProdRegion" />
+          <ScalarProperty Name="OtherNames" ColumnName="OtherNames" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="OfficerDistrict" ColumnName="OfficerDistrict" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="ProdDistrict" ColumnName="ProdDistrict" />
+          <ScalarProperty Name="InsWard" ColumnName="InsWard" />
+          <ScalarProperty Name="InsVillage" ColumnName="InsVillage" />
+          <ScalarProperty Name="InsDistrict" ColumnName="InsDistrict" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="YearTime" ColumnName="YearTime" />
+          <ScalarProperty Name="QuarterTime" ColumnName="QuarterTime" />
+          <ScalarProperty Name="MonthTime" ColumnName="MonthTime" />
+          <ScalarProperty Name="NewInsurees" ColumnName="NewInsurees" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uvwNumberPolicyRenewed">
+      <EntityTypeMapping TypeName="IMISModel.uvwNumberPolicyRenewed">
+        <MappingFragment StoreEntitySet="uvwNumberPolicyRenewed">
+          <ScalarProperty Name="ProdRegion" ColumnName="ProdRegion" />
+          <ScalarProperty Name="OtherNames" ColumnName="OtherNames" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="OfficerCode" ColumnName="OfficerCode" />
+          <ScalarProperty Name="OfficeDistrict" ColumnName="OfficeDistrict" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="ProdDistrictName" ColumnName="ProdDistrictName" />
+          <ScalarProperty Name="WardName" ColumnName="WardName" />
+          <ScalarProperty Name="VillageName" ColumnName="VillageName" />
+          <ScalarProperty Name="InsureeDistrictName" ColumnName="InsureeDistrictName" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="YearTime" ColumnName="YearTime" />
+          <ScalarProperty Name="QuarterTime" ColumnName="QuarterTime" />
+          <ScalarProperty Name="MonthTime" ColumnName="MonthTime" />
+          <ScalarProperty Name="Renewals" ColumnName="Renewals" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uvwNumberPolicySold">
+      <EntityTypeMapping TypeName="IMISModel.uvwNumberPolicySold">
+        <MappingFragment StoreEntitySet="uvwNumberPolicySold">
+          <ScalarProperty Name="ProdRegion" ColumnName="ProdRegion" />
+          <ScalarProperty Name="OtherNames" ColumnName="OtherNames" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="OfficerDistrict" ColumnName="OfficerDistrict" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="ProdDistrict" ColumnName="ProdDistrict" />
+          <ScalarProperty Name="InsWard" ColumnName="InsWard" />
+          <ScalarProperty Name="InsVillage" ColumnName="InsVillage" />
+          <ScalarProperty Name="InsDistrict" ColumnName="InsDistrict" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="YearTime" ColumnName="YearTime" />
+          <ScalarProperty Name="QuarterTime" ColumnName="QuarterTime" />
+          <ScalarProperty Name="MonthTime" ColumnName="MonthTime" />
+          <ScalarProperty Name="SoldPolicy" ColumnName="SoldPolicy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uvwOverallAssessment">
+      <EntityTypeMapping TypeName="IMISModel.uvwOverallAssessment">
+        <MappingFragment StoreEntitySet="uvwOverallAssessment">
+          <ScalarProperty Name="HFRegion" ColumnName="HFRegion" />
+          <ScalarProperty Name="HFDistrict" ColumnName="HFDistrict" />
+          <ScalarProperty Name="HFName" ColumnName="HFName" />
+          <ScalarProperty Name="HFCode" ColumnName="HFCode" />
+          <ScalarProperty Name="HFLevel" ColumnName="HFLevel" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="YearTime" ColumnName="YearTime" />
+          <ScalarProperty Name="QuarterTime" ColumnName="QuarterTime" />
+          <ScalarProperty Name="MonthTime" ColumnName="MonthTime" />
+          <ScalarProperty Name="Asessment" ColumnName="Asessment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uvwPremiumCollection">
+      <EntityTypeMapping TypeName="IMISModel.uvwPremiumCollection">
+        <MappingFragment StoreEntitySet="uvwPremiumCollection">
+          <ScalarProperty Name="YearTime" ColumnName="YearTime" />
+          <ScalarProperty Name="QuarterTime" ColumnName="QuarterTime" />
+          <ScalarProperty Name="MonthTime" ColumnName="MonthTime" />
+          <ScalarProperty Name="OfficerDistrict" ColumnName="OfficerDistrict" />
+          <ScalarProperty Name="OtherNames" ColumnName="OtherNames" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="PayerName" ColumnName="PayerName" />
+          <ScalarProperty Name="PayerType" ColumnName="PayerType" />
+          <ScalarProperty Name="PayType" ColumnName="PayType" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uvwServiceExpenditures">
+      <EntityTypeMapping TypeName="IMISModel.uvwServiceExpenditures">
+        <MappingFragment StoreEntitySet="uvwServiceExpenditures">
+          <ScalarProperty Name="ProdRegion" ColumnName="ProdRegion" />
+          <ScalarProperty Name="HFRegion" ColumnName="HFRegion" />
+          <ScalarProperty Name="HFDistrict" ColumnName="HFDistrict" />
+          <ScalarProperty Name="VillageName" ColumnName="VillageName" />
+          <ScalarProperty Name="WardName" ColumnName="WardName" />
+          <ScalarProperty Name="IDistrictName" ColumnName="IDistrictName" />
+          <ScalarProperty Name="ICDName" ColumnName="ICDName" />
+          <ScalarProperty Name="ICDCode" ColumnName="ICDCode" />
+          <ScalarProperty Name="VisitType" ColumnName="VisitType" />
+          <ScalarProperty Name="HFName" ColumnName="HFName" />
+          <ScalarProperty Name="HFCode" ColumnName="HFCode" />
+          <ScalarProperty Name="HFLevel" ColumnName="HFLevel" />
+          <ScalarProperty Name="ServCareType" ColumnName="ServCareType" />
+          <ScalarProperty Name="ServName" ColumnName="ServName" />
+          <ScalarProperty Name="ServCode" ColumnName="ServCode" />
+          <ScalarProperty Name="ServType" ColumnName="ServType" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="YearTime" ColumnName="YearTime" />
+          <ScalarProperty Name="QuarterTime" ColumnName="QuarterTime" />
+          <ScalarProperty Name="MonthTime" ColumnName="MonthTime" />
+          <ScalarProperty Name="ServiceExpenditure" ColumnName="ServiceExpenditure" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uvwServiceUtilization">
+      <EntityTypeMapping TypeName="IMISModel.uvwServiceUtilization">
+        <MappingFragment StoreEntitySet="uvwServiceUtilization">
+          <ScalarProperty Name="ProdRegion" ColumnName="ProdRegion" />
+          <ScalarProperty Name="HFRegion" ColumnName="HFRegion" />
+          <ScalarProperty Name="HFDistrict" ColumnName="HFDistrict" />
+          <ScalarProperty Name="VillageName" ColumnName="VillageName" />
+          <ScalarProperty Name="WardName" ColumnName="WardName" />
+          <ScalarProperty Name="IDistrictName" ColumnName="IDistrictName" />
+          <ScalarProperty Name="ICDName" ColumnName="ICDName" />
+          <ScalarProperty Name="ICDCode" ColumnName="ICDCode" />
+          <ScalarProperty Name="VisitType" ColumnName="VisitType" />
+          <ScalarProperty Name="HFName" ColumnName="HFName" />
+          <ScalarProperty Name="HFCode" ColumnName="HFCode" />
+          <ScalarProperty Name="HFLevel" ColumnName="HFLevel" />
+          <ScalarProperty Name="ServCareType" ColumnName="ServCareType" />
+          <ScalarProperty Name="ServName" ColumnName="ServName" />
+          <ScalarProperty Name="ServCode" ColumnName="ServCode" />
+          <ScalarProperty Name="ServType" ColumnName="ServType" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="YearTime" ColumnName="YearTime" />
+          <ScalarProperty Name="QuarterTime" ColumnName="QuarterTime" />
+          <ScalarProperty Name="MonthTime" ColumnName="MonthTime" />
+          <ScalarProperty Name="ServiceUtilized" ColumnName="ServiceUtilized" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
